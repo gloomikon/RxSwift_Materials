@@ -2,7 +2,6 @@ import Foundation
 import RxSwift
 
 
-
 /// Copyright (c) 2020 Razeware LLC
 ///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34,3 +33,12 @@ import RxSwift
 /// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
+
+example(of: "just, of, from") {
+    // 1
+    let one = 1
+    let two = 2
+    let three = 3
+    
+    let observable = Observable<Int>.just(one)
+}

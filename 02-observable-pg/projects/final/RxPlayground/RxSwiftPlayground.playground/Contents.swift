@@ -8,10 +8,10 @@ example(of: "just, of, from") {
   let three = 3
 
   // 2
-  let observable = Observable<Int>.just(one)
-  let observable2 = Observable.of(one, two, three)
-  let observable3 = Observable.of([one, two, three])
-  let observable4 = Observable.from([one, two, three])
+  let _ = Observable<Int>.just(one)
+  let _ = Observable.of(one, two, three)
+  let _ = Observable.of([one, two, three])
+  let _ = Observable.from([one, two, three])
 }
 
 example(of: "subscribe") {
@@ -108,10 +108,10 @@ example(of: "create") {
     // 1
     observer.onNext("1")
 
-    //    observer.onError(MyError.anError)
+//        observer.onError(MyError.anError)
 
     // 2
-    //    observer.onCompleted()
+//        observer.onCompleted()
 
     // 3
     observer.onNext("?")
