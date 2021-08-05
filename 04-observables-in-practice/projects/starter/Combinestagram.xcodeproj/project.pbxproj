@@ -17,21 +17,27 @@
 		9CE7E5E61DE5A40A00C8BA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE7E5E51DE5A40A00C8BA5A /* Assets.xcassets */; };
 		9CE7E5E91DE5A40A00C8BA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE7E5E71DE5A40A00C8BA5A /* LaunchScreen.storyboard */; };
 		9CE7E5F11DE5A94600C8BA5A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9CE7E5F01DE5A94600C8BA5A /* Podfile */; };
+		C3DF11C6063F77B465281891 /* Pods_Combinestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86008B112EB29FB03C969237 /* Pods_Combinestagram.framework */; };
+		DE45F89326BBE3A400398A92 /* UIViewController+ShowMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE45F89226BBE3A400398A92 /* UIViewController+ShowMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5454D667EC0AD02743C3915D /* Pods-Combinestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combinestagram.release.xcconfig"; path = "Target Support Files/Pods-Combinestagram/Pods-Combinestagram.release.xcconfig"; sourceTree = "<group>"; };
+		86008B112EB29FB03C969237 /* Pods_Combinestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Combinestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CDD7B031DE5AABE0058B2D5 /* UIImage+Collage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "UIImage+Collage.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CDD7B051DE5BC660058B2D5 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PhotosViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CDD7B071DE6D7ED0058B2D5 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PhotoCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CDD7B0B1DE6E3D30058B2D5 /* PhotoWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PhotoWriter.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CE7E5D91DE5A40900C8BA5A /* Combinestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combinestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE7E5DC1DE5A40900C8BA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		9CE7E5DE1DE5A40A00C8BA5A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MainViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9CE7E5DE1DE5A40A00C8BA5A /* MainViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = MainViewController.swift; sourceTree = "<group>"; tabWidth = 4; wrapsLines = 1; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9CE7E5E31DE5A40A00C8BA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CE7E5E51DE5A40A00C8BA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CE7E5E81DE5A40A00C8BA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CE7E5EA1DE5A40A00C8BA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CE7E5F01DE5A94600C8BA5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE45F89226BBE3A400398A92 /* UIViewController+ShowMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ShowMessage.swift"; sourceTree = "<group>"; };
+		E344ECD23C7AF25B40A595B8 /* Pods-Combinestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Combinestagram.debug.xcconfig"; path = "Target Support Files/Pods-Combinestagram/Pods-Combinestagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,15 +45,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DF11C6063F77B465281891 /* Pods_Combinestagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3B46020ADCFC91397DCF05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86008B112EB29FB03C969237 /* Pods_Combinestagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E6A5EBD300807128F926FDC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				E344ECD23C7AF25B40A595B8 /* Pods-Combinestagram.debug.xcconfig */,
+				5454D667EC0AD02743C3915D /* Pods-Combinestagram.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -69,6 +86,7 @@
 				9CDD7B031DE5AABE0058B2D5 /* UIImage+Collage.swift */,
 				9CE7E5DC1DE5A40900C8BA5A /* AppDelegate.swift */,
 				9CDD7B0B1DE6E3D30058B2D5 /* PhotoWriter.swift */,
+				DE45F89226BBE3A400398A92 /* UIViewController+ShowMessage.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -80,10 +98,11 @@
 				9CE7E5DB1DE5A40900C8BA5A /* Combinestagram */,
 				9CE7E5DA1DE5A40900C8BA5A /* Products */,
 				3E6A5EBD300807128F926FDC /* Pods */,
+				0C3B46020ADCFC91397DCF05 /* Frameworks */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 		};
 		9CE7E5DA1DE5A40900C8BA5A /* Products */ = {
 			isa = PBXGroup;
@@ -112,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CE7E5ED1DE5A40A00C8BA5A /* Build configuration list for PBXNativeTarget "Combinestagram" */;
 			buildPhases = (
+				440BCCAB4A9D64F02AD01991 /* [CP] Check Pods Manifest.lock */,
 				9CE7E5D51DE5A40900C8BA5A /* Sources */,
 				9CE7E5D61DE5A40900C8BA5A /* Frameworks */,
 				9CE7E5D71DE5A40900C8BA5A /* Resources */,
+				93F5333B1E249801E6D39EF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +196,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		440BCCAB4A9D64F02AD01991 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Combinestagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F5333B1E249801E6D39EF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Combinestagram/Pods-Combinestagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Combinestagram/Pods-Combinestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CE7E5D51DE5A40900C8BA5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -184,6 +250,7 @@
 				9CDD7B081DE6D7ED0058B2D5 /* PhotoCell.swift in Sources */,
 				9CDD7B061DE5BC660058B2D5 /* PhotosViewController.swift in Sources */,
 				9CDD7B0C1DE6E3D30058B2D5 /* PhotoWriter.swift in Sources */,
+				DE45F89326BBE3A400398A92 /* UIViewController+ShowMessage.swift in Sources */,
 				9CE7E5DF1DE5A40A00C8BA5A /* MainViewController.swift in Sources */,
 				9CE7E5DD1DE5A40A00C8BA5A /* AppDelegate.swift in Sources */,
 			);
@@ -324,6 +391,7 @@
 		};
 		9CE7E5EE1DE5A40A00C8BA5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E344ECD23C7AF25B40A595B8 /* Pods-Combinestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -338,6 +406,7 @@
 		};
 		9CE7E5EF1DE5A40A00C8BA5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5454D667EC0AD02743C3915D /* Pods-Combinestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
