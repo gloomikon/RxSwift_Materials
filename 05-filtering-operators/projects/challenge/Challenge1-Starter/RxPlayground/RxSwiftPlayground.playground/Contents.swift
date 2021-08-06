@@ -29,8 +29,24 @@ example(of: "Challenge 1") {
   
   let input = PublishSubject<Int>()
   
-  // Add your code here
-  
+  input
+    .skipWhile { $0 == 0 }
+    .filter { $0 < 10 }
+    .take(10)
+    .toArray()
+    .subscribe(onSuccess: { inputs in
+        let phone = phoneNumber(from: inputs)
+        if let contact = contacts[phone] {
+            print("Dialing \(contact) (\(phone))...")
+        } else {
+            print("Contact not found")
+        }
+    },
+    onError: { error in
+        print(error)
+    })
+    .disposed(by: disposeBag)
+    
   
   input.onNext(0)
   input.onNext(603)
@@ -40,7 +56,7 @@ example(of: "Challenge 1") {
   
   // Confirm that 7 results in "Contact not found",
   // and then change to 2 and confirm that Shai is found
-  input.onNext(7)
+  input.onNext(2)
   
   "5551212".forEach {
     if let number = (Int("\($0)")) {
@@ -52,17 +68,17 @@ example(of: "Challenge 1") {
 }
 
 /// Copyright (c) 2020 Razeware LLC
-/// 
+///
 /// Permission is hereby granted, free of charge, to any person obtaining a copy
 /// of this software and associated documentation files (the "Software"), to deal
 /// in the Software without restriction, including without limitation the rights
 /// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 /// copies of the Software, and to permit persons to whom the Software is
 /// furnished to do so, subject to the following conditions:
-/// 
+///
 /// The above copyright notice and this permission notice shall be included in
 /// all copies or substantial portions of the Software.
-/// 
+///
 /// Notwithstanding the foregoing, you may not use, copy, modify, merge, publish,
 /// distribute, sublicense, create a derivative work, and/or sell copies of the
 /// Software in any work that is designed, intended, or marketed for pedagogical or
@@ -70,7 +86,7 @@ example(of: "Challenge 1") {
 /// or information technology.  Permission for such use, copying, modification,
 /// merger, publication, distribution, sublicensing, creation of derivative works,
 /// or sale is expressly withheld.
-/// 
+///
 /// This project and source code may use libraries or frameworks that are
 /// released under various Open-Source licenses. Use of those libraries and
 /// frameworks are governed by their own individual licenses.
