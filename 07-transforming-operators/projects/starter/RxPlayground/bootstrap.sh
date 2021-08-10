@@ -108,9 +108,13 @@ sed -i '' '/^.*C8D2C1501D4F3CD6006E2431.*$/d' Libs/RxSwift/Rx.xcodeproj/project.
 ## Remove code signing from project. See: https://github.com/ReactiveX/RxSwift/pull/1822
 sed -i '' '/^.*783T66X79Y;$/d' Libs/RxSwift/Rx.xcodeproj/project.pbxproj
 
-## Build RxSwift
+## Build RxSwift & RxCocoa
 info "🚧 Building RxSwift ..."
 xcodebuild build -scheme RxSwift -workspace RxSwiftPlayground.xcworkspace -sdk iphonesimulator -destination "name=iPhone 8" &> build.log & BUILDPID=$!
+loader $BUILDPID
+
+info "🚧 Building RxCocoa ..."
+xcodebuild build -scheme RxCocoa -workspace RxSwiftPlayground.xcworkspace -sdk iphonesimulator -destination "name=iPhone 8" &> build.log & BUILDPID=$!
 loader $BUILDPID
 
 info "🎁 Wrapping up ..."
@@ -177,7 +181,7 @@ cat > "$XCUSERDATA/xcschememanagement.plist" <<EOF
 		<key>RxCocoa.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
