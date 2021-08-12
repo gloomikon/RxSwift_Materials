@@ -64,9 +64,9 @@
 				62E065EC8723AE151F88980F /* Pods */,
 				4348ECC23071B592A282621F /* Frameworks */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 		};
 		3D46E6251E258DFC0090C97B /* Products */ = {
 			isa = PBXGroup;
@@ -106,7 +106,6 @@
 				33FD31FBB5A8074AED33F8C0 /* Pods-OurPlanet.debug.xcconfig */,
 				3C7B09A3B9656142757AE986 /* Pods-OurPlanet.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
