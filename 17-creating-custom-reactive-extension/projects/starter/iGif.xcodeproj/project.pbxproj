@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28053803089DCF285233FE25 /* Pods_iGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CC6BD743D4766A2B4AD5FA /* Pods_iGif.framework */; };
+		93F713C6BF51D1BCD1DE37EB /* Pods_iGifTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9A1C214831B7B18CCFA778 /* Pods_iGifTests.framework */; };
 		A27009322210B60200BDFEEC /* GiphyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27009312210B60200BDFEEC /* GiphyGif.swift */; };
 		A27009342210B6E500BDFEEC /* GiphySearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27009332210B6E500BDFEEC /* GiphySearchResponse.swift */; };
 		CB8945F61E41C9B600F46229 /* GifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8945F51E41C9B600F46229 /* GifTableViewCell.swift */; };
@@ -32,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E30EDB091982AFE98B5ECD /* Pods-iGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGif.release.xcconfig"; path = "Target Support Files/Pods-iGif/Pods-iGif.release.xcconfig"; sourceTree = "<group>"; };
+		31A7FDDF906B60405671DDA7 /* Pods-iGifTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGifTests.release.xcconfig"; path = "Target Support Files/Pods-iGifTests/Pods-iGifTests.release.xcconfig"; sourceTree = "<group>"; };
+		52BD36AB89CBF3700306D39A /* Pods-iGifTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGifTests.debug.xcconfig"; path = "Target Support Files/Pods-iGifTests/Pods-iGifTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A9A1C214831B7B18CCFA778 /* Pods_iGifTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGifTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CC6BD743D4766A2B4AD5FA /* Pods_iGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27009312210B60200BDFEEC /* GiphyGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyGif.swift; sourceTree = "<group>"; };
 		A27009332210B6E500BDFEEC /* GiphySearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchResponse.swift; sourceTree = "<group>"; };
 		CB8945F51E41C9B600F46229 /* GifTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifTableViewCell.swift; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 		CBB17E2A1E41B72E0016EBA9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBB17E2E1E41B8790016EBA9 /* URLSession+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLSession+Rx.swift"; sourceTree = "<group>"; };
 		CBB17E301E41B8AF0016EBA9 /* ApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		F815C1B274712DCE0FFC72E9 /* Pods-iGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGif.debug.xcconfig"; path = "Target Support Files/Pods-iGif/Pods-iGif.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28053803089DCF285233FE25 /* Pods_iGif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +71,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F713C6BF51D1BCD1DE37EB /* Pods_iGifTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042C70667A177025B633FE5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F815C1B274712DCE0FFC72E9 /* Pods-iGif.debug.xcconfig */,
+				01E30EDB091982AFE98B5ECD /* Pods-iGif.release.xcconfig */,
+				52BD36AB89CBF3700306D39A /* Pods-iGifTests.debug.xcconfig */,
+				31A7FDDF906B60405671DDA7 /* Pods-iGifTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A27009302210B5F400BDFEEC /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +97,15 @@
 				A27009332210B6E500BDFEEC /* GiphySearchResponse.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		BA5FAE585D414567EAD3EAFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72CC6BD743D4766A2B4AD5FA /* Pods_iGif.framework */,
+				5A9A1C214831B7B18CCFA778 /* Pods_iGifTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CB8945F41E41C94F00F46229 /* View */ = {
@@ -92,6 +123,8 @@
 				CBB17E071E41227B0016EBA9 /* iGif */,
 				CBB17E1C1E41227C0016EBA9 /* iGifTests */,
 				CBB17E061E41227B0016EBA9 /* Products */,
+				042C70667A177025B633FE5B /* Pods */,
+				BA5FAE585D414567EAD3EAFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBB17E221E41227C0016EBA9 /* Build configuration list for PBXNativeTarget "iGif" */;
 			buildPhases = (
+				4992590B7BFA592CD01DAFC1 /* [CP] Check Pods Manifest.lock */,
 				CBB17E011E41227B0016EBA9 /* Sources */,
 				CBB17E021E41227B0016EBA9 /* Frameworks */,
 				CBB17E031E41227B0016EBA9 /* Resources */,
+				CF061F3042741CDB17426AA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CBB17E251E41227C0016EBA9 /* Build configuration list for PBXNativeTarget "iGifTests" */;
 			buildPhases = (
+				539D66DC462E4444F2CF8BAE /* [CP] Check Pods Manifest.lock */,
 				CBB17E151E41227C0016EBA9 /* Sources */,
 				CBB17E161E41227C0016EBA9 /* Frameworks */,
 				CBB17E171E41227C0016EBA9 /* Resources */,
+				390D1F2FF8755E4C9A5D8855 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,6 +281,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		390D1F2FF8755E4C9A5D8855 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGifTests/Pods-iGifTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxNimble/RxNimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gifu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxNimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iGifTests/Pods-iGifTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4992590B7BFA592CD01DAFC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGif-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		539D66DC462E4444F2CF8BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iGifTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF061F3042741CDB17426AA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iGif/Pods-iGif-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gifu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iGif/Pods-iGif-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CBB17E011E41227B0016EBA9 /* Sources */ = {
@@ -411,6 +547,7 @@
 		};
 		CBB17E231E41227C0016EBA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F815C1B274712DCE0FFC72E9 /* Pods-iGif.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -424,6 +561,7 @@
 		};
 		CBB17E241E41227C0016EBA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E30EDB091982AFE98B5ECD /* Pods-iGif.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -437,6 +575,7 @@
 		};
 		CBB17E261E41227C0016EBA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BD36AB89CBF3700306D39A /* Pods-iGifTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = "";
@@ -451,6 +590,7 @@
 		};
 		CBB17E271E41227C0016EBA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A7FDDF906B60405671DDA7 /* Pods-iGifTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = "";
