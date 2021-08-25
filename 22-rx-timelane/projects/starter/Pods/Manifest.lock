@@ -1,0 +1,35 @@
+PODS:
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxTimelane (1.0.9):
+    - RxSwift (~> 5.1)
+    - TimelaneCore (~> 1.0)
+  - TimelaneCore (1.0.11)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
+  - RxTimelane
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTimelane
+    - TimelaneCore
+
+SPEC CHECKSUMS:
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxTimelane: 1579e15e7ae1d34c96a3952fe188318f6448bc5a
+  TimelaneCore: 715a01e534cea5d4785309767cd9e7c012380024
+
+PODFILE CHECKSUM: de55d4bd148a10f80d13c5708836a4f38a05d13d
+
+COCOAPODS: 1.10.1
