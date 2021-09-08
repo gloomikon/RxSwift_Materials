@@ -41,8 +41,8 @@ import Unbox
 typealias AccessToken = String
 
 struct TwitterAccount {
-  static private var key: String = "placeholder"
-  static private var secret: String = "placeholder"
+  static private var key: String = "gCfKYH3DLMuf6WJL3UWq0T8cy"
+  static private var secret: String = "FQ3zBqKkjnsOQIiGMeXTxMtGchgvQ9fM3xvOhY9c1irkHbo4GU"
   static var isLocal: Bool {
     return key == "placeholder"
   }

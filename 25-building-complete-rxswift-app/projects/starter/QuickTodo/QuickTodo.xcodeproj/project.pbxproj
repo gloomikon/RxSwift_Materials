@@ -12,6 +12,7 @@
 		3D932B081E4D245600E4BC3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D932B061E4D245600E4BC3D /* Main.storyboard */; };
 		3D932B0A1E4D245600E4BC3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D932B091E4D245600E4BC3D /* Assets.xcassets */; };
 		3D932B0D1E4D245600E4BC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D932B0B1E4D245600E4BC3D /* LaunchScreen.storyboard */; };
+		BFEEE294F223CB8CAFE0D316 /* Pods_QuickTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCA72A0C72C76E765A70AE7 /* Pods_QuickTodo.framework */; };
 		D8D4B084216A9B2C450E606F /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4B40D0383E56BA2D62F95 /* Scene.swift */; };
 		D8D4B29BEEE5F90B2EEFD433 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4B9842A4352B148BF885E /* TasksViewModel.swift */; };
 		D8D4B38B0D79DD3BCEE7424A /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4B0622FCB80BA64F522B8 /* TaskItem.swift */; };
@@ -26,9 +27,12 @@
 		D8D4BFAE409AAC26A804D7E6 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4BF2D32577F25C8EDFFC1 /* SceneCoordinatorType.swift */; };
 		D8D4BFB6F8704E6619D678C9 /* EditTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4B669B9E5D5F0A890C14A /* EditTaskViewModel.swift */; };
 		D8D4BFC445A53540D28CDB55 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D4BD2FD3ECDBCF00EC50D1 /* SceneCoordinator.swift */; };
+		DE990DD626E8E42D00C18CBA /* PushedEditTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE990DD526E8E42D00C18CBA /* PushedEditTaskViewController.swift */; };
+		DE990DD826E8E44F00C18CBA /* PushedEditTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE990DD726E8E44F00C18CBA /* PushedEditTaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C982943CB3ED56D29C51103 /* Pods-QuickTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTodo.debug.xcconfig"; path = "Target Support Files/Pods-QuickTodo/Pods-QuickTodo.debug.xcconfig"; sourceTree = "<group>"; };
 		3D2E84491E4E7A3D0075B16B /* BindableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
 		3D932AFF1E4D245600E4BC3D /* QuickTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D932B021E4D245600E4BC3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +40,7 @@
 		3D932B091E4D245600E4BC3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D932B0C1E4D245600E4BC3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D932B0E1E4D245600E4BC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FCA72A0C72C76E765A70AE7 /* Pods_QuickTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D4B0622FCB80BA64F522B8 /* TaskItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 		D8D4B40D0383E56BA2D62F95 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		D8D4B5E9DE757713868B0E95 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +55,9 @@
 		D8D4BD2FD3ECDBCF00EC50D1 /* SceneCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		D8D4BF2D32577F25C8EDFFC1 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		D8D4BFBF5D6D8CA757EC782E /* TaskServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskServiceType.swift; sourceTree = "<group>"; };
+		DE990DD526E8E42D00C18CBA /* PushedEditTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushedEditTaskViewController.swift; sourceTree = "<group>"; };
+		DE990DD726E8E44F00C18CBA /* PushedEditTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushedEditTaskViewModel.swift; sourceTree = "<group>"; };
+		FA3FC5A757364E7656BA397B /* Pods-QuickTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickTodo.release.xcconfig"; path = "Target Support Files/Pods-QuickTodo/Pods-QuickTodo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEEE294F223CB8CAFE0D316 /* Pods_QuickTodo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +77,12 @@
 			children = (
 				3D932B011E4D245600E4BC3D /* QuickTodo */,
 				3D932B001E4D245600E4BC3D /* Products */,
+				A36ACEDFC204A7E7D85E98A2 /* Pods */,
+				97FDB842AB438C8F6A4A8013 /* Frameworks */,
 			);
-			indentWidth = 2;
+			indentWidth = 4;
 			sourceTree = "<group>";
-			tabWidth = 2;
+			tabWidth = 4;
 		};
 		3D932B001E4D245600E4BC3D /* Products */ = {
 			isa = PBXGroup;
@@ -97,6 +108,23 @@
 				3D932B0E1E4D245600E4BC3D /* Info.plist */,
 			);
 			path = QuickTodo;
+			sourceTree = "<group>";
+		};
+		97FDB842AB438C8F6A4A8013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FCA72A0C72C76E765A70AE7 /* Pods_QuickTodo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A36ACEDFC204A7E7D85E98A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C982943CB3ED56D29C51103 /* Pods-QuickTodo.debug.xcconfig */,
+				FA3FC5A757364E7656BA397B /* Pods-QuickTodo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D8D4B1782111ABB7322736CA /* Scenes */ = {
@@ -126,6 +154,8 @@
 				D8D4B5E9DE757713868B0E95 /* TasksViewController.swift */,
 				D8D4B669B9E5D5F0A890C14A /* EditTaskViewModel.swift */,
 				D8D4BC91C06633B3679DD8E7 /* EditTaskViewController.swift */,
+				DE990DD526E8E42D00C18CBA /* PushedEditTaskViewController.swift */,
+				DE990DD726E8E44F00C18CBA /* PushedEditTaskViewModel.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -163,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D932B111E4D245600E4BC3D /* Build configuration list for PBXNativeTarget "QuickTodo" */;
 			buildPhases = (
+				87A8384E8565BEBBFCB38566 /* [CP] Check Pods Manifest.lock */,
 				3D932AFB1E4D245600E4BC3D /* Sources */,
 				3D932AFC1E4D245600E4BC3D /* Frameworks */,
 				3D932AFD1E4D245600E4BC3D /* Resources */,
+				2009C819231A68C787D62370 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +255,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2009C819231A68C787D62370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickTodo/Pods-QuickTodo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/NSObject+Rx/NSObject_Rx.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSObject_Rx.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickTodo/Pods-QuickTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A8384E8565BEBBFCB38566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D932AFB1E4D245600E4BC3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -230,8 +323,10 @@
 			files = (
 				3D932B031E4D245600E4BC3D /* AppDelegate.swift in Sources */,
 				D8D4B38B0D79DD3BCEE7424A /* TaskItem.swift in Sources */,
+				DE990DD826E8E44F00C18CBA /* PushedEditTaskViewModel.swift in Sources */,
 				D8D4BE38CFBD47278990836B /* TaskServiceType.swift in Sources */,
 				3D2E844A1E4E7A3D0075B16B /* BindableType.swift in Sources */,
+				DE990DD626E8E42D00C18CBA /* PushedEditTaskViewController.swift in Sources */,
 				D8D4BCFC41706D2948B976E9 /* TaskService.swift in Sources */,
 				D8D4B29BEEE5F90B2EEFD433 /* TasksViewModel.swift in Sources */,
 				D8D4B6D94E7B54B9C1F34CBD /* TasksViewController.swift in Sources */,
@@ -382,6 +477,7 @@
 		};
 		3D932B121E4D245600E4BC3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C982943CB3ED56D29C51103 /* Pods-QuickTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -395,6 +491,7 @@
 		};
 		3D932B131E4D245600E4BC3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3FC5A757364E7656BA397B /* Pods-QuickTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
